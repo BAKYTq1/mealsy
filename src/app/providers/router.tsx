@@ -6,6 +6,7 @@ import { Befstragenow } from '../../pages/components/Katalogresepts/befstragenof
 import { CatalogRecipes } from '../../pages/components/Katalogresepts/catalog/CatalogRecipes'
 import { Profile } from '../../pages/components/profile/Profile'
 import AuthLayout from '../../pages/auth/authlayout/AuthLayout'
+import Redactor from "../../pages/components/profile/redactor/Redactor";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: "profile", 
         element: <Profile/>,
+      },
+        {
+        path: "redactor", 
+        element: <Redactor/>,
       },
     ],
   },
