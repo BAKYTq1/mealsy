@@ -33,6 +33,7 @@ export const router = createBrowserRouter([
         {
         path: "redactor", 
         element: <Redactor/>,
+        },
       {
         path: "Handbook", 
         element: <Handbook/>,
