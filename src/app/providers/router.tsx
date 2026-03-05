@@ -7,6 +7,7 @@ import { CatalogRecipes } from '../../pages/components/Katalogresepts/catalog/Ca
 import { Profile } from '../../pages/components/profile/Profile'
 import AuthLayout from '../../pages/auth/authlayout/AuthLayout'
 import Redactor from "../../pages/components/profile/redactor/Redactor";
+import { Handbook } from '../../pages/components/handbook/Handbook'
 
 export const router = createBrowserRouter([
   {
@@ -32,6 +33,9 @@ export const router = createBrowserRouter([
         {
         path: "redactor", 
         element: <Redactor/>,
+      {
+        path: "Handbook", 
+        element: <Handbook/>,
       },
     ],
   },
